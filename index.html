@@ -89,22 +89,32 @@
             border: 2px solid deeppink;
             border-radius: 5px;
         }
-        .sup_ref {
+        #video {
+            display: block;
+            width: 50%;
+            height: 200px;
+            margin: 20px 0;
+            border: 2px solid deeppink;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+           
+        }
+        .sup_referințe {
             vertical-align: super;
             font-size: 0.8em;
             font-weight: bold;
             color: red;
         }
-        .referinte {
-            vertical-align: super;
+        #bibliografie {
+            border-top: 1px solid deeppink;
+            margin-top: 40px;
+            padding-top: 10px;
             font-size: 16px;
-            margin-left: 2px;
         }
          </style>
          </head>
          <body>
     <article>
-
         <header>
             <h1>Lumea fluturilor</h1>
         <p style="color: turquoise;"> Lungu Elena, SID III </p>
@@ -115,6 +125,13 @@
                 Fluturii se clasifică în fluturi adevărați <span class="highlight">(superfamilia Papilionoidea)</span> fluturi hesperiide  <span class="highlight">(superfamilia Hesperioidea, engleză <em>skipper</em>)</span>, și fluturi-molii <span class="highlight">(superfamilia Hedyloidea).</span>
                <sup> <a href="https://ro.wikipedia.org/wiki/Fluture"> [1]</a></sup>
       </p>
+      <iframe
+       id="video"
+       src="https://www.youtube.com/embed/aBfJtTm_XD4?si=fBbBt2235hq9SkQn" 
+       title="YouTube video player"
+       frameborder="0"
+       allowfullscreen>
+    </iframe>
 
       <h2>Origine și distribuție</h2>
 
@@ -145,21 +162,22 @@
     </aside>
 
     <h2>Galerie</h2>
-    <div class="galerie">
+    
+    <section class="galerie">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF5EB07q3RFgOwbpJoyW9eYjC-1a9XgDSKZQ&s" alt="Fluture 1">
         <img src="https://img.bunadimineata.ro/uploads/2015/04/fluture-pe-floare_27122598.jpg" alt="Fluture 2">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYA0XKW5L6E_lzjuRTlmtxaebBvqQPl0ynVA&s" alt="Fluture 3">
-    </div>
+    </section>
 
-        <div class="referinte">
+        <section id="bibliografie">
             <hr style="border: 0; border-top: 1px solid deeppink; margin-top: 40px;">
-            <p>Referințe:</p>
+            <p>Bibliografie:</p>
             <ol>
                 <li id="sursa1"><a href="https://ro.wikipedia.org/wiki/Fluture">Wikipedia</a></li>
                 <li id="sursa2"><a href="https://ro.wikipedia.org/wiki/Fluture">Referință 2</a></li>
                 <li id="sursa3"><a href="https://ro.wikipedia.org/wiki/Fluture">Referință 3</a></li>
             </ol>
-            </div>
+        </section>
     </article>
 </body>
 </html>
